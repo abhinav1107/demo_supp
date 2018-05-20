@@ -27,13 +27,13 @@ class MyBaseClass2(object):
     """
     def __init__(self):
         self.var1 = "MyVariable"
-        print("Do something cool here with " + self.var1)
+        print("UPDATED: Do something cool here with " + self.var1)
         function2()
 
     def base_class2_function1(self):
-        print("do something cooler here with " + self.var1)
+        print("UPDATED: do something cooler here with " + self.var1)
         return
 
     def base_class2_function2(self):
-        print("Do something even cooler here with " + self.var1)
+        print("UPDATED: Do something even cooler here with " + self.var1)
         return
